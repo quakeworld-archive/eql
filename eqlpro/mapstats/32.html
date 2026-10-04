@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=us-ascii" />
+  <title>KT Log Parser: Match Stats</title>
+  <style type="text/css">
+  	body { font-family: Tahoma, Arial, sans-serif;
+	  background-image: url('https://eql.quakeworld.nu/eqlpro/mapstats/shamby.jpg');
+	  background-repeat: no-repeat;
+	  background-position: left top; }
+  	td { text-align: center; }
+	h1, h2	{ text-align: center; }
+	div.awards { 
+		margin-top: 1em;
+		text-align: center;
+		border-top: 1px solid #888;
+		border-bottom: 3px solid #888;
+	}
+	div.awards p {
+		margin: 0.3em 0;
+	}
+
+  	table.teams { margin-left: auto; margin-right: auto; }
+  	table.teams td em { font-size: 1.5em; font-weight: bold; font-style: normal; }
+  	table.teams td.frags { font-size: 3em; }
+  	table.teams td.teams { font-size: 4em; }
+	
+  	table.players { margin-left: auto; margin-right: auto; }
+  	table.players thead td { background-color: #400; color: #fff; cursor: hand; }
+  	table.players thead td:hover { background-color: #ddf; color: #000; }
+  	table.players tbody tr.t1 { background-color: #eee; }
+  </style>
+
+  </head>
+
+  <body>
+
+
+
+
+<h1>Match stats</h1>
+<table class='teams'>
+<tr><td>Teams</td><td class='teams'>klan</td><td class='teams'>tks</td></tr>
+<tr><td>Frags</td><td class='frags'><em>271</em></td><td class='frags'>129</td></tr>
+<tr><td>Summary</td><td colspan='2'>
+  <p class='map'>Map: <strong>dm3</strong></p>
+  <p class='date'>Date: 2011-01-09 19:28:59 CET</p>
+</td></tr>
+<tr><td>Quads</td><td><em>13</em></td><td>7</td></tr>
+<tr><td>Red Armors</td><td><em>40</em></td><td>10</td></tr>
+<tr><td>Yellow Armors</td><td>22</td><td><em>31</em></td></tr>
+<tr><td>Pentagrams</td><td><em>3</em></td><td>1</td></tr>
+<tr><td>Taken RLs</td><td>28</td><td><em>37</em></td></tr>
+<tr><td>Killed RLs</td><td><em>32</em></td><td>25</td></tr>
+<tr><td>Dropped RLs</td><td>14</td><td><em>20</em></td></tr>
+<tr><td>Given Damage</td><td><em>38037</em></td><td>26942</td></tr>
+</table>
+
+<div class='awards'><p><em>Efficiency</em> awards goes to <strong>[klan]dimman</strong> for 68.2 effi</p><p><em>RL Killer</em> awards goes to <strong>[klan]grisling</strong> for 13 killed RLs</p><p><em>Frag Streak</em> awards goes to <strong>[klan]TheEvilDog</strong> for 49 frags in one streak</p><p><em>Quadrunner</em> awards goes to <strong>[klan]grisling</strong> for 8 frags in one Quadrun</p><p><em>Boomsticker</em> awards goes to <strong>[klan]grisling</strong> for 53 shotgun percentage</p><p><em>Aimer</em> awards goes to <strong>[klan]TheEvilDog</strong> for 21 direct rocket hits</p><p><em>Annihilator</em> awards goes to <strong>[klan]grisling</strong> for 11031 given damage</p></div><h2>General stats</h2>
+<table class='players sortable' cellspacing='2'>
+<thead>
+<tr>
+<td class='name'>name</td>
+<td class='team'>team</td>
+<td class='frags'>frags</td>
+<td class='rank'>rank</td>
+<td class='friendkills'>friendkills</td>
+<td class='efficiency'>efficiency</td>
+<td class='rl-Killed'>rl-Killed</td>
+<td class='rl-Dropped'>rl-Dropped</td>
+<td class='streaks-Frags'>streaks-Frags</td>
+<td class='streaks-QuadRun'>streaks-QuadRun</td>
+<td class='spawnfrags'>spawnfrags</td>
+</tr>
+</thead>
+<tbody>
+<tr class='t1'>
+<td class='name'>lethalwiz</td>
+<td class='team'>klan</td>
+<td class='frags'>40</td>
+<td class='rank'>-6</td>
+<td class='friendkills'>2</td>
+<td class='efficiency'>46.5</td>
+<td class='rl-Killed'>6</td>
+<td class='rl-Dropped'>3</td>
+<td class='streaks-Frags'>12</td>
+<td class='streaks-QuadRun'>3</td>
+<td class='spawnfrags'>4</td>
+</tr>
+<tr class='t1'>
+<td class='name'>dimman</td>
+<td class='team'>klan</td>
+<td class='frags'>75</td>
+<td class='rank'>40</td>
+<td class='friendkills'>4</td>
+<td class='efficiency'>68.2</td>
+<td class='rl-Killed'>6</td>
+<td class='rl-Dropped'>6</td>
+<td class='streaks-Frags'>26</td>
+<td class='streaks-QuadRun'>6</td>
+<td class='spawnfrags'>9</td>
+</tr>
+<tr class='t1'>
+<td class='name'>grisling</td>
+<td class='team'>klan</td>
+<td class='frags'>79</td>
+<td class='rank'>37</td>
+<td class='friendkills'>2</td>
+<td class='efficiency'>65.3</td>
+<td class='rl-Killed'>13</td>
+<td class='rl-Dropped'>2</td>
+<td class='streaks-Frags'>35</td>
+<td class='streaks-QuadRun'>8</td>
+<td class='spawnfrags'>4</td>
+</tr>
+<tr class='t1'>
+<td class='name'>TheEvilDog</td>
+<td class='team'>klan</td>
+<td class='frags'>77</td>
+<td class='rank'>36</td>
+<td class='friendkills'>7</td>
+<td class='efficiency'>65.3</td>
+<td class='rl-Killed'>7</td>
+<td class='rl-Dropped'>3</td>
+<td class='streaks-Frags'>49</td>
+<td class='streaks-QuadRun'>6</td>
+<td class='spawnfrags'>3</td>
+</tr>
+<tr class='t2'>
+<td class='name'>ddk</td>
+<td class='team'>tks</td>
+<td class='frags'>34</td>
+<td class='rank'>-45</td>
+<td class='friendkills'>0</td>
+<td class='efficiency'>30.1</td>
+<td class='rl-Killed'>6</td>
+<td class='rl-Dropped'>5</td>
+<td class='streaks-Frags'>4</td>
+<td class='streaks-QuadRun'>1</td>
+<td class='spawnfrags'>1</td>
+</tr>
+<tr class='t2'>
+<td class='name'>Medar</td>
+<td class='team'>tks</td>
+<td class='frags'>29</td>
+<td class='rank'>-64</td>
+<td class='friendkills'>4</td>
+<td class='efficiency'>23.8</td>
+<td class='rl-Killed'>4</td>
+<td class='rl-Dropped'>6</td>
+<td class='streaks-Frags'>5</td>
+<td class='streaks-QuadRun'>3</td>
+<td class='spawnfrags'>1</td>
+</tr>
+<tr class='t2'>
+<td class='name'>sQueeze</td>
+<td class='team'>tks</td>
+<td class='frags'>36</td>
+<td class='rank'>-18</td>
+<td class='friendkills'>3</td>
+<td class='efficiency'>40.0</td>
+<td class='rl-Killed'>8</td>
+<td class='rl-Dropped'>7</td>
+<td class='streaks-Frags'>10</td>
+<td class='streaks-QuadRun'>2</td>
+<td class='spawnfrags'>0</td>
+</tr>
+<tr class='t2'>
+<td class='name'>HangTime</td>
+<td class='team'>tks</td>
+<td class='frags'>30</td>
+<td class='rank'>-47</td>
+<td class='friendkills'>3</td>
+<td class='efficiency'>28.0</td>
+<td class='rl-Killed'>7</td>
+<td class='rl-Dropped'>2</td>
+<td class='streaks-Frags'>8</td>
+<td class='streaks-QuadRun'>5</td>
+<td class='spawnfrags'>3</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Damage stats</h2>
+<table class='players sortable' cellspacing='2'>
+<thead>
+<tr>
+<td class='name'>name</td>
+<td class='wp-lg'>wp-lg</td>
+<td class='wp-rl'>wp-rl</td>
+<td class='wp-gl'>wp-gl</td>
+<td class='wp-sg'>wp-sg</td>
+<td class='wp-ssg'>wp-ssg</td>
+<td class='rl_skill-ad'>rl skill-ad</td>
+<td class='rl_skill-dh'>rl skill-dh</td>
+<td class='damage-Tkn'>damage-Tkn</td>
+<td class='damage-Gvn'>damage-Gvn</td>
+<td class='damage-Tm'>damage-Tm</td>
+</tr>
+</thead>
+<tbody>
+<tr class='t1'>
+<td class='name'>lethalwiz</td>
+<td class='wp-lg'>20.0%</td>
+<td class='wp-rl'>53.9%</td>
+<td class='wp-gl'>42.9%</td>
+<td class='wp-sg'>45.9%</td>
+<td class='wp-ssg'>63.1%</td>
+<td class='rl_skill-ad'>87.3</td>
+<td class='rl_skill-dh'>7</td>
+<td class='damage-Tkn'>6949</td>
+<td class='damage-Gvn'>6920</td>
+<td class='damage-Tm'>289</td>
+</tr>
+<tr class='t1'>
+<td class='name'>dimman</td>
+<td class='wp-lg'>34.0%</td>
+<td class='wp-rl'>61.8%</td>
+<td class='wp-gl'></td>
+<td class='wp-sg'>45.5%</td>
+<td class='wp-ssg'>42.7%</td>
+<td class='rl_skill-ad'>98.6</td>
+<td class='rl_skill-dh'>20</td>
+<td class='damage-Tkn'>5528</td>
+<td class='damage-Gvn'>10257</td>
+<td class='damage-Tm'>435</td>
+</tr>
+<tr class='t1'>
+<td class='name'>grisling</td>
+<td class='wp-lg'>21.2%</td>
+<td class='wp-rl'>64.8%</td>
+<td class='wp-gl'></td>
+<td class='wp-sg'>53.0%</td>
+<td class='wp-ssg'>34.2%</td>
+<td class='rl_skill-ad'>104.3</td>
+<td class='rl_skill-dh'>20</td>
+<td class='damage-Tkn'>7871</td>
+<td class='damage-Gvn'>11031</td>
+<td class='damage-Tm'>379</td>
+</tr>
+<tr class='t1'>
+<td class='name'>TheEvilDog</td>
+<td class='wp-lg'>34.9%</td>
+<td class='wp-rl'>53.2%</td>
+<td class='wp-gl'></td>
+<td class='wp-sg'>40.6%</td>
+<td class='wp-ssg'>34.1%</td>
+<td class='rl_skill-ad'>118.3</td>
+<td class='rl_skill-dh'>21</td>
+<td class='damage-Tkn'>6594</td>
+<td class='damage-Gvn'>9829</td>
+<td class='damage-Tm'>425</td>
+</tr>
+<tr class='t2'>
+<td class='name'>ddk</td>
+<td class='wp-lg'>36.1%</td>
+<td class='wp-rl'>43.6%</td>
+<td class='wp-gl'></td>
+<td class='wp-sg'>43.0%</td>
+<td class='wp-ssg'>15.2%</td>
+<td class='rl_skill-ad'>89.8</td>
+<td class='rl_skill-dh'>4</td>
+<td class='damage-Tkn'>8897</td>
+<td class='damage-Gvn'>6418</td>
+<td class='damage-Tm'>134</td>
+</tr>
+<tr class='t2'>
+<td class='name'>Medar</td>
+<td class='wp-lg'>37.3%</td>
+<td class='wp-rl'>42.6%</td>
+<td class='wp-gl'></td>
+<td class='wp-sg'>33.6%</td>
+<td class='wp-ssg'>25.2%</td>
+<td class='rl_skill-ad'>78.4</td>
+<td class='rl_skill-dh'>5</td>
+<td class='damage-Tkn'>11027</td>
+<td class='damage-Gvn'>7241</td>
+<td class='damage-Tm'>397</td>
+</tr>
+<tr class='t2'>
+<td class='name'>sQueeze</td>
+<td class='wp-lg'>32.1%</td>
+<td class='wp-rl'>53.3%</td>
+<td class='wp-gl'>14.8%</td>
+<td class='wp-sg'>37.8%</td>
+<td class='wp-ssg'>30.0%</td>
+<td class='rl_skill-ad'>90.6</td>
+<td class='rl_skill-dh'>3</td>
+<td class='damage-Tkn'>8372</td>
+<td class='damage-Gvn'>7124</td>
+<td class='damage-Tm'>512</td>
+</tr>
+<tr class='t2'>
+<td class='name'>HangTime</td>
+<td class='wp-lg'>27.7%</td>
+<td class='wp-rl'>45.5%</td>
+<td class='wp-gl'>9.1%</td>
+<td class='wp-sg'>38.0%</td>
+<td class='wp-ssg'>36.5%</td>
+<td class='rl_skill-ad'>88.9</td>
+<td class='rl_skill-dh'>4</td>
+<td class='damage-Tkn'>9741</td>
+<td class='damage-Gvn'>6159</td>
+<td class='damage-Tm'>289</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Item stats</h2>
+<table class='players sortable' cellspacing='2'>
+<thead>
+<tr>
+<td class='name'>name</td>
+<td class='armr-mhs-ga'>armr&amp;mhs-ga</td>
+<td class='armr-mhs-ya'>armr&amp;mhs-ya</td>
+<td class='armr-mhs-ra'>armr&amp;mhs-ra</td>
+<td class='armr-mhs-mh'>armr&amp;mhs-mh</td>
+<td class='powerups-Q'>powerups-Q</td>
+<td class='powerups-P'>powerups-P</td>
+<td class='powerups-R'>powerups-R</td>
+<td class='rl-Took'>rl-Took</td>
+</tr>
+</thead>
+<tbody>
+<tr class='t1'>
+<td class='name'>lethalwiz</td>
+<td class='armr-mhs-ga'>0</td>
+<td class='armr-mhs-ya'>3</td>
+<td class='armr-mhs-ra'>10</td>
+<td class='armr-mhs-mh'>3</td>
+<td class='powerups-Q'>2</td>
+<td class='powerups-P'>0</td>
+<td class='powerups-R'>0</td>
+<td class='rl-Took'>6</td>
+</tr>
+<tr class='t1'>
+<td class='name'>dimman</td>
+<td class='armr-mhs-ga'>0</td>
+<td class='armr-mhs-ya'>5</td>
+<td class='armr-mhs-ra'>9</td>
+<td class='armr-mhs-mh'>12</td>
+<td class='powerups-Q'>3</td>
+<td class='powerups-P'>0</td>
+<td class='powerups-R'>0</td>
+<td class='rl-Took'>7</td>
+</tr>
+<tr class='t1'>
+<td class='name'>grisling</td>
+<td class='armr-mhs-ga'>0</td>
+<td class='armr-mhs-ya'>11</td>
+<td class='armr-mhs-ra'>10</td>
+<td class='armr-mhs-mh'>7</td>
+<td class='powerups-Q'>5</td>
+<td class='powerups-P'>2</td>
+<td class='powerups-R'>0</td>
+<td class='rl-Took'>8</td>
+</tr>
+<tr class='t1'>
+<td class='name'>TheEvilDog</td>
+<td class='armr-mhs-ga'>0</td>
+<td class='armr-mhs-ya'>3</td>
+<td class='armr-mhs-ra'>11</td>
+<td class='armr-mhs-mh'>11</td>
+<td class='powerups-Q'>3</td>
+<td class='powerups-P'>1</td>
+<td class='powerups-R'>3</td>
+<td class='rl-Took'>7</td>
+</tr>
+<tr class='t2'>
+<td class='name'>ddk</td>
+<td class='armr-mhs-ga'>0</td>
+<td class='armr-mhs-ya'>7</td>
+<td class='armr-mhs-ra'>1</td>
+<td class='armr-mhs-mh'>5</td>
+<td class='powerups-Q'>1</td>
+<td class='powerups-P'>0</td>
+<td class='powerups-R'>0</td>
+<td class='rl-Took'>8</td>
+</tr>
+<tr class='t2'>
+<td class='name'>Medar</td>
+<td class='armr-mhs-ga'>0</td>
+<td class='armr-mhs-ya'>7</td>
+<td class='armr-mhs-ra'>3</td>
+<td class='armr-mhs-mh'>7</td>
+<td class='powerups-Q'>3</td>
+<td class='powerups-P'>0</td>
+<td class='powerups-R'>0</td>
+<td class='rl-Took'>9</td>
+</tr>
+<tr class='t2'>
+<td class='name'>sQueeze</td>
+<td class='armr-mhs-ga'>0</td>
+<td class='armr-mhs-ya'>7</td>
+<td class='armr-mhs-ra'>5</td>
+<td class='armr-mhs-mh'>13</td>
+<td class='powerups-Q'>2</td>
+<td class='powerups-P'>0</td>
+<td class='powerups-R'>0</td>
+<td class='rl-Took'>9</td>
+</tr>
+<tr class='t2'>
+<td class='name'>HangTime</td>
+<td class='armr-mhs-ga'>0</td>
+<td class='armr-mhs-ya'>10</td>
+<td class='armr-mhs-ra'>1</td>
+<td class='armr-mhs-mh'>5</td>
+<td class='powerups-Q'>1</td>
+<td class='powerups-P'>1</td>
+<td class='powerups-R'>1</td>
+<td class='rl-Took'>11</td>
+</tr>
+</tbody>
+</table>
+
+</body></html>

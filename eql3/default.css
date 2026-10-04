@@ -1,0 +1,308 @@
+body {
+
+	background-color: #ededed;
+	background-image: url('images/background.gif');
+	background-repeat: repeat-x;
+	background-position: top;
+	color: #000000;
+	font-family: verdana, arial, helvetica, sans-serif;
+	margin: 40px;
+	text-align: center;
+}
+
+div {
+	text-align: left;
+}
+
+a {
+	color: #0787C8;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+a img {
+	border-style: none;
+}
+
+#logo {
+	background-color: #fff;
+	background-image: url('images/logo.gif');
+	background-repeat: no-repeat;
+	background-position: top left;	
+	border-color: #A8A496;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 10px;
+	height: 80px; 
+	width: 100%;
+	position: relative;
+}
+
+
+#footer {
+	background-color: #d9d9d9;
+	clear: both;
+	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 5px;
+	position: relative;
+	text-align: center;
+	width: 732px;
+}
+
+
+
+
+.menu {
+	background-color: #fff;
+	border-color: #A8A496;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0px 0px 10px 0px;
+	position: relative;
+	width: 100%;
+}
+.inlineborder {
+	border-color: #000000 #cccccc #ffffff #cccccc;
+	border-style: solid none solid none;
+	border-width: 1px;
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+.header {
+	background-image: url('images/header.gif');
+	border-color: #ffffff;
+	border-style: solid none solid none;
+	border-width: 1px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 10px;
+	letter-spacing: 1px;
+	padding: 0px;
+	position: relative;
+	width: 100%;
+}
+.spacer {
+	padding: 4px;
+}
+.menucontent {
+	font-size: 10px;
+	line-height: 130%;
+	padding: 6px;
+	position: relative;
+}
+.maincontent {
+	background-color: #fff;
+	color: #000;
+	font-size: 11px;
+	line-height: 130%;
+	padding: 10px;
+}
+
+.commentnumber {
+               color: #C97B3F;
+}
+
+.date {
+      color: #666;
+      font-size: 10px;
+}
+
+.comment {
+	color: red;
+	font-weight: normal;
+}
+
+h1 {
+	display: block;
+	color: #C97B3F;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+hr {
+	background-color: #cccccc;
+	color: #cccccc;
+	height: 1px;
+	margin: 20px auto 20px auto;
+	width: 90%;
+}
+
+hr.statsline 
+{
+	border: 0;
+	margin: 0;
+	width: 100%;
+}
+
+hr.playoffline 
+{
+	background-color: blue;
+	color: blue;
+}
+hr.promotedline 
+{
+	background-color: #33cc00;
+	color: #33cc00;
+}
+hr.relegatedline 
+{
+	background-color: red;
+	color: red;
+}
+
+
+.listspacer {
+	height: 10px;
+	width: 10px;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navcontainer ul {
+	color: #000;
+}
+#navcontainer ul li a {
+	background: transparent url(images/list-off.gif) left no-repeat;
+	padding-left: 10px;
+	text-align: left;
+	text-decoration: none;
+	color: #0787C8;
+}
+
+#navcontainer ul li a:hover {
+	background: url(images/list-on.gif) left center no-repeat;
+	color: black;
+	text-decoration: none;
+}
+
+#navcontainer ul li a#current {
+	background: transparent url(https://eql.quakeworld.nu/eql3/images/list-active.gif) left center no-repeat;
+	color: #666;
+}
+
+#mainlogin {
+	float: right;
+	padding: 10px;
+}
+
+select.login {
+	clear: both;
+	display: block;
+	width: 180px;
+	margin-bottom: 4px;
+}
+input.login {
+	width: 100px;
+}
+
+#mainlogin .button {
+	background-image: url(https://eql.quakeworld.nu/eql3/images/loginbutton.gif);
+	background-color: transparent;
+	border: none;
+	height: 20px;
+	margin: 0 0 0 4px;
+	width: 68px;
+}
+
+input, select, textarea {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 13px;
+	width: 300px;
+}
+
+textarea {
+	height: 240px;
+}
+
+input.button {
+	background-color: #A8A496;
+	border-color: #A8A496;
+	border-style: solid;
+	border-width: 1px;
+	color: #ffffff;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	margin: 2px 2px 0 0;
+	padding: 2px;
+	width: auto;
+}
+
+input.radio, input.checkbox {
+	width: auto;
+}
+
+.formbody {
+	clear: both;
+	display: block;
+}
+.formlabel {
+	clear: both;
+	display: block;
+	margin-top: 10px;
+}
+
+
+table.list {
+	width: 100%;
+}
+
+table.list th {
+	font-weight: bold;
+	text-align: left;
+}
+
+table.list td, th {
+           padding: 2px;
+}
+
+table.viewitem {
+	width: 100%;
+}
+
+table.viewitem th {
+	font-weight: normal;
+	padding: 2px;
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.italics {
+	font-style: italic;
+}
+
+td img.screenshot {
+                margin: 0 0 20px 0;
+}
+
+.screenshot {
+                border: 1px solid #000;
+                height: 300px;
+                margin: 10px 0 0 0;
+                width: 400px;
+}
